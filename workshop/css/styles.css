@@ -1,0 +1,76 @@
+#main {
+
+}
+
+#banner {
+    position: relative;
+    width: 950px; 
+    margin: 0 auto;
+    font-size: 50px;
+    color: slategrey;
+    
+}
+
+a:link {
+    color: slategrey;
+    text-decoration: none;
+}
+
+a:hover {
+    
+    font-size: 35px;
+}
+
+a:visited {
+    color: slategrey;
+    text-decoration: none;
+}
+
+.my-links {
+    position: relative;
+    /* float: left; */
+    /* width: 150px; */
+    margin-left: 5rem;
+    color: slategrey;
+}
+
+#aboutme {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    color: rgb(137, 137, 141);
+}
+
+#interests-title {
+    position: relative;
+    margin: 0 auto;
+    width: 600px;
+    color: cadetblue;
+    font-size: 4em;
+    
+}
+
+.interests-body-titles {
+    margin: 0 auto;
+    position: relative;
+    width: 600px;
+    margin-left: 3.125em;
+    font-size: 2em;
+    color: cadetblue;
+}
+
+#interests-body {
+    margin: 0 auto;
+    width: 600px;
+    position: relative;
+    margin-left: 3.125em;
+    /* width: 450px; */
+    font-size: 2em;
+    color: rgba(63, 66, 66, 0.733);
+}
+
+.interests-number1 {
+    margin: 0 auto;
+    position: relative;
+    margin-left: 3.125em;
+}

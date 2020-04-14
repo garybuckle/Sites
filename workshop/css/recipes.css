@@ -1,0 +1,40 @@
+#rec-header {
+    font-size: 24px;
+    position: relative;
+    width: 8em;
+    margin: 0 auto;
+    font-size: 24px;
+    color: gray;
+}
+
+#rec-img {
+    position: relative;
+    display: block;
+    width: 1-em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+#rec-ingredients {
+position: relative;
+width: 45%;
+float: left;
+margin-left: 2em;
+}
+
+#rec-instructions {
+position: relative;
+width: 45%;
+float: right;
+}
+
+.rec-text {
+    font-size: 18px;
+    color: rgb(77, 78, 78);
+}
+
+.rec-text-header {
+    font-size: 20px;
+    color: rgb(59, 59, 59);
+}
+
