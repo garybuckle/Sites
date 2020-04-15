@@ -60,3 +60,16 @@
     float: none;
 }
 
+.rec-title {
+    text-align: center;
+    color: teal;
+}
+
+.tag {
+
+}
+
+ol {
+    list-style-type: upper-roman;
+  }
+
