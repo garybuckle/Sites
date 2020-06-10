@@ -1,21 +1,94 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-       <h1>Hello Corona World!</h1>
-       <p>This is green text and this is more text</p>
-      <div id= "section1">
-          <h2>Section 1</h2>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/recipes.css">
+
+    <title>Recipes</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron bg-primary text-white text-center">
+        <h1 class="display-1">Welcome to Recipes !</h1>
+        <p class="display-4">This is the recipes page...</p>
       </div>
-      <div id="section2">
-          <h2>Section 2</h2>
+      <div id="recipe-carousel" class="carousel slide" data-ride="carousel" data-interval ="0">
+        <ol class="carousel-indicators">
+          <li data-target="#recipe-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#recipe-carousel" data-slide-to="1"></li>
+          <li data-target="#recipe-carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner row w-100 m-0">
+          <div class="carousel-item active">
+            <div class="col-4">
+              <img src="assets/food1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="col-4">
+              <img src="assets/food1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="col-4">
+              <img src="assets/food1.jpg" class="d-block w-100" alt="...">
+            </div>
+            
+          </div>
+          
+
+          <div class="carousel-item item">
+            <div class="col-4">
+              <img src="assets/food1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="col-4">
+              <img src="assets/food1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="col-4">
+              <img src="assets/food1.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          
+
+          <div class="carousel-item item">
+            <div class="col-4">
+              <img src="assets/food1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="col-4">
+              <img src="assets/food1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="col-4">
+              <img src="assets/food1.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          
+
+
+
+        </div>
+
+
+        <a class="carousel-control-prev" href="#recipe-carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#recipe-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
-    </body>
+
+
+
+
+    </div>
+  
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
 </html>

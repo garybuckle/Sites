@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" -->
+    <!-- integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+  <!-- Bootstrap local -->
+  <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/recipes.css">
+  <!-- <link rel="stylesheet" href="css/carousel.css"> -->
+  <title>Recipes!</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="jumbotron bg-primary text-white text-center">
+      <h1 class="display-1">Welcome to Recipes !</h1>
+      <p class="display-4">This is the recipes page...</p>
+    </div>
+  </div>
+
+      <div class="container recipe-carousel">
+        <!-- carousel -->
+        <div id="recipe-carousel"  class="carousel slide" data-ride="carousel" data-interval="0">
+          
+          <ul class="carousel-indicators" role="tablist" >
+            <li data-target="#recipe-carousel" data-slide-to="0" role="tab" class="active"></li>
+            <li data-target="#recipe-carousel" data-slide-to="1" role="tab"></li>
+            <li data-target="#recipe-carousel" data-slide-to="2" role="tab"></li>
+          </ul>
+
+          <!-- <a class="carousel-control-prev" href="#recipe-carousel" role="button" data-slide="prev"> -->
+            <!-- <span class="carousel-control-prev-icon"></span> -->
+          <!-- </a> -->
+          <a class="carousel-control-next" href="#recipe-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+          
+          <div class="carousel-inner row w-100">
+            <div class="carousel-item active">
+              <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                  <img src="assets/food1.jpg" class="d-block w-100" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title">Spinach and ricotta pasta</h5>
+                    <p class="card-text">Click on the links below to get information and cooking instructions.</p>
+                    <a href="#ingredientsToggle" class="btn btn-primary" data-toggle="collapse" >Ingredients</a>
+                    <a href="#instructionsToggle" class="btn btn-primary" data-toggle="collapse">Instructions</a>
+                    <div class="collapse" id="ingredientsToggle">
+                      <div class="card card-body">
+                        <ul>
+                          <li>150g/5½oz dried farfalle or tagliatelle</li>
+                          <li>200g/7oz fresh spinach or defrosted frozen spinach</li>
+                          <li>50g/1¾oz unsalted butter</li>
+                          <li>1 garlic clove, finely chopped</li>
+                          <li>125g/4½oz ricotta</li>
+                          <li> grated nutmeg</li>
+                          <li>1 tbsp grated pecorino (or alternative vegetarian hard cheese)
+                            salt and freshly ground black pepper    </li> 
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="collapse" id="instructionsToggle">
+                      <div class="card card-body">
+                        <ol>
+                          <li>Do this</li>
+                          <li>Do this</li>
+                          <li>Do this</li>
+                        </ol>
+              
+                      </div>
+                    </div>
+                    
+
+                    
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                  <img src="assets/food1.jpg" class="d-block w-100" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title">Veggie Curry</h5>
+                    <p class="card-text">Click on the links below to get information and cooking instructions.</p>
+                    <a href="#" class="btn btn-primary">Ingredients</a>
+                    <a href="#" class="btn btn-primary">Instructions</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <img src="assets/food1.jpg" class="d-block w-100"alt="">
+              </div>
+            </div>
+
+            <div class="carousel-item item">
+              <div class="col-4">
+                <img src="assets/recipes.jpg" class="d-block w-100" alt="">
+              </div>
+              <div class="col-4">
+                <img src="assets/recipes.jpg" class="d-block w-100" alt="">
+              </div>
+              <div class="col-4">
+                <img src="assets/recipes.jpg" class="d-block w-100" alt="">
+              </div>
+            </div> 
+            <div class="carousel-item item">
+              <div class="col-4">
+                <img src="assets/recipes.jpg" class="d-block w-100" alt="">
+              </div>
+              <div class="col-4">
+                <img src="assets/recipes.jpg" class="d-block w-100" alt="">
+              </div>
+              <div class="col-4">
+                <img src="assets/recipes.jpg" class="d-block w-100" alt="">
+              </div>
+            </div> 
+          </div>
+        </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css">
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="js/recipes.js"></script>
+</body>
+
+</html>
