@@ -1,83 +1,94 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Recipes</title>
-  <link href="css/recipes.css" type="text/css" rel="stylesheet">
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="utf-8">
-  <!-- <script src="assets/jquery-3.5.0.js"></script> -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
-  
-  <script>
-   
-  </script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/recipes.css">
 
-</head>
-<body>
-  <div id="rec-header">
-      <h1>Recipes of the world unite</h1>
-  </div>
+    <title>Recipes</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron bg-primary text-white text-center">
+        <h1 class="display-1">Welcome to Recipes !</h1>
+        <p class="display-4">This is the recipes page...</p>
+      </div>
+      <div id="recipe-carousel" class="carousel slide" data-ride="carousel" data-interval ="0">
+        <ol class="carousel-indicators">
+          <li data-target="#recipe-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#recipe-carousel" data-slide-to="1"></li>
+          <li data-target="#recipe-carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner row w-100 m-0">
+          <div class="carousel-item active">
+            <div class="col-4">
+              <img src="assets/food1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="col-4">
+              <img src="assets/food1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="col-4">
+              <img src="assets/food1.jpg" class="d-block w-100" alt="...">
+            </div>
+            
+          </div>
+          
 
-  <div id="rec-pictures">
-     <img src="assets/food1.jpg" alt="Food recipe" class="rec-header-img" style="width: 400px;">
-     
-     <!-- <a class="click-me" href="#"><h2 class="rec-title">Pasta Salad</h2></a> -->
+          <div class="carousel-item item">
+            <div class="col-4">
+              <img src="assets/food1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="col-4">
+              <img src="assets/food1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="col-4">
+              <img src="assets/food1.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          
+
+          <div class="carousel-item item">
+            <div class="col-4">
+              <img src="assets/food1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="col-4">
+              <img src="assets/food1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="col-4">
+              <img src="assets/food1.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          
+
+
+
+        </div>
+
+
+        <a class="carousel-control-prev" href="#recipe-carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#recipe-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+
+
+
     </div>
-
-    <div id="rec-title">
-      <button class="rec-title click-me">Pasta Salad</button>
-    </div>
-
-<div class="to-hide">
-<div id="left-column">
-  <div class="rec-header">
-    <h2>Ingredients</h2>
-  </div>
-  <p class="rec-content-text" >
-    <ul>
-      <li> 1 tbsp olive oil</li>
-      <li>1 onion finely chopped</li>
-      <li>2 garlic cloves, crushed</li>
-      <li>120g chorizo, diced</li>
-      <li>2 x 400g cans chopped tomatoes</li>
-      <li>  1 tsp caster sugar</li>
-      <li>600g fresh gnocchi</li>
-      <li>125g mozzarella ball, cut into chunks</li>
-      <li>small bunch of basil, torn</li>
-      <li>green salad, to serve</li>
-    </ul>
-  </p>
-</div>
-
-<div id="right-column">
-  <div class="rec-header">
-    <h2>Instructions</h2>
-  </div>
-  <p class="rec-content-text">
-    <ol>
-      <li>Heat the oil in a medium pan over a medium heat.</li>
-      <li>Fry the onion and garlic for 8-10 mins until soft. </li>
-      <li>Add the chorizo and fry for 5 mins more.   </li>
-      <li>Tip in the tomatoes and sugar, and season. </li>
-      <li>Bring to a simmer, then add the gnocchi and cook for 8 mins, stirring often, until soft. </li>
-      <li>Heat the grill to high.</li>
-    </ol>
-    </p>
-</div>
-</div>
-
-
-
-
-
-
- 
-
   
 
-     
-  
-  <script src="js/recipes.js"></script>
-</body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
 </html>
