@@ -7,10 +7,10 @@
     color: gray;
 }
 
-#rec-img {
+.rec-img {
     position: relative;
     display: block;
-    width: 1-em;
+    /* width: 10em; */
     margin-bottom: 2em;
     text-align: center;
 }

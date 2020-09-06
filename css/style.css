@@ -1,7 +1,30 @@
-p {
-color: #00ff00;
+h1 {
+   
+    
 }
 
-.section1 {
-    font-size: 30px;
+#centre {
+    position: relative;
+    margin-left: 10em;
 }
+
+.greentext {
+    color: seagreen;
+}
+
+.redborder {
+    border: steelblue;
+    border-style: solid;
+}
+
+.div1 {
+    position: relative;
+    margin-left: 5em;
+}
+
+
+
+
+
+
+

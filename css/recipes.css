@@ -1,62 +1,89 @@
-#rec-header {
-    position: relative;
-    width: 80%;
-    margin: 0 auto;
-    color: teal;
-    text-align: center;
+
+
+.recipe-carousel {
+
 }
 
 
-#rec-pictures {
-    position: relative;
-    width: 100%;
-    margin: 0 auto;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-}
-
-.rec-header-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-}
-
-#left-column {
-    position: relative;
-    width: 45%;
-    margin-left: 2rem;
-    float: left;
-}
-
-#right-column {
-    position: relative;
-    float: right;
-    width: 45%;
+#recipe-carousel .carousel-inner .carousel-item.active,
+#recipe-carousel .carousel-inner .carousel-item-next,
+#recipe-carousel .carousel-inner .carousel-item-prev {
+	display: flex;
+	/* align-items: start; */
+	transition: transform 0.7s, opacity .7s;
 }
 
 
 
 
-.rec-content-text {
-    color: slategrey;
-    font-size: 18px;
+ol.carousel-indicators{
+	position: relative;
+	width:100px;
+	height: 50px;
+	margin: 0 auto;
+	/* background: seagreen;   */
+}
+
+
+
+.carousel-indicators li {
+	background-color: royalblue;
+}
+  
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  
+  position: relative;
+   /* bottom: 30px;  */
+   top: 120px;
+  
+}
+  
+.carousel-control-next-icon {
+	position: relative;
+	/*  left: 110px;  */
+}
+
+.carousel-control-prev-icon {
+	position: relative;
+	 /* right: 110px;  */
+}
+  */
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
 
 
 
 
-.rec-header {
-    
-    color: teal;
+
+.recipe-indicators {
+
 }
 
+*/
 
-.to-hide {
-    display: block;
+ 
+.carousel-control-next, .carousel-control-prev {
+	opacity: 1;
 }
-
-.clear {
-    float: none;
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    /* display: inline-block; */
+    /* background: transparent no-repeat center center; */
+    /* /* background-size: 100% 100%;  */
+    height: 50px !important;
+    width: 50px !important;
 }
-
+#recipe-carousel .carousel-control-next,
+#recipe-carousel .carousel-control-prev {
+	opacity: 1;
+	height: 5em;
+	 /* width: 4em;  */
+	display: inline-flex;
+	
+}
+  

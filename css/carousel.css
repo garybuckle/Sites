@@ -1,0 +1,100 @@
+.carousel-item .carousel-text {
+	position: absolute;
+	width: 16.25em;
+	font-size: 1.8rem;
+	color: #fff;
+	bottom: 1.5rem;
+	margin-left: 1.5rem;
+	z-index: 1;
+}
+
+.carousel-item .carousel-text:hover {
+	opacity: 1;
+}
+
+.recipe-carousel-item img {
+	opacity: 1.0;
+	filter: alpha(opacity=100); /* For IE8 and earlier */
+	transition: all .7s;
+	width: 100%;
+}
+
+.recipe-carousel-item a {
+	display: inline-block;
+	width: 100%;
+}
+
+.recipe-carousel-item a:hover img {
+	opacity: 0.7;
+	filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+
+.recipe-carousel-prev {
+	margin-left: -11%;
+}
+
+ol.carousel-indicators{
+	position: relative;
+	width:100px;
+	height: 50px;
+	margin: 0 auto;
+	background: seagreen;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+  background-image: none;
+  color: red;
+  font-size: 20px;
+}
+
+
+
+#recipe-carousel .carousel-inner .carousel-item-right.active,
+#recipe-carousel .carousel-inner .carousel-item-next {
+	transform: translateX(100%);
+}
+
+#recipe-carousel .carousel-inner .carousel-item-left.active,
+#recipe-carousel .carousel-inner .carousel-item-prev {
+	transform: translateX(-100%);
+}
+
+#recipe-carousel .carousel-inner .carousel-item-left.active img,
+#recipe-carousel .carousel-inner .carousel-item-prev img {
+	box-shadow: none !important;
+}
+
+#recipe-carousel .carousel-inner .carousel-item-right,
+#recipe-carousel .carousel-inner .carousel-item-left {
+	transform: translateX(0);
+}
+
+
+
+.carousel-item .carousel-text {
+	position: absolute;
+	width: 16.25em;
+	font-size: 1.8rem;
+	color: #fff;
+	bottom: 1.5rem;
+	margin-left: 1.5rem;
+	z-index: 1;
+}
+
+
+
+
+
+
+
+
