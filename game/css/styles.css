@@ -1,21 +1,26 @@
+
+
+
 #cell1 {
-    background-color: blue;
-    margin-right: 10px;
+    /* background-color: blue; */
+    /* margin-right: 10px; */
 }
 
 #cell2 {
-    background-color: red;
+    /* background-color: red; */
 }
 #cell3 {
-    background-color: green;
+     /* background-color: green; */
 }
 #cell4 {
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 #cell5 {
-    background-color: purple;
+    /* background-color: purple; */
 }
 
-.cell-height {
-    height: 200px;
+#cell6 {
+    /* background-color: seagreen; */
 }
+
+
