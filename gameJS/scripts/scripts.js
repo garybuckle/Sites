@@ -15,4 +15,4 @@ console.log ("There are " + allImages.length + " images");
 // hide an image to test, grab the second image 
 // or the 7th image.Remember that arrays start at zero.
 
-allImages[6].style.display = "none";
+allImages[10].style.display = "none";
